@@ -5,6 +5,23 @@
 }
 
 
+.altezza{
+    height: 100%;
+}
+
+/*************
+bg-color
+*************/
+.bg-grigioscuro{
+    background-color: rgb(44, 62, 80);
+}
+
+.bg-verde{
+    background-color: rgb(26, 188, 156);
+}
+
+
+
 /*************
 Header 
 *************/
@@ -18,12 +35,20 @@ header{
     background-color: white;
 }
 
-.altezza-header{
-    height: 100%;
+
+
+/*************
+start bootstrap
+*************/
+
+.contenitore-start{
+    height: 275px;
+    width: 100%;
 }
 
-.bg-grigioscuro{
-    background-color: rgb(44, 62, 80);
+.contenuto-start{
+    height: 200px;
+    
+    background-color: white;
 }
-
 
