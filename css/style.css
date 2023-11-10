@@ -16,6 +16,12 @@
 .altezza-200{
     height: 200px;
 }
+
+.altezza-500{
+    height: 500px;
+}
+
+
 /*************
 bg-color
 *************/
@@ -82,3 +88,12 @@ start bootstrap
     background-color: white;
 }
 
+
+/*************
+About
+*************/
+
+.contenuto-about{
+    height: 400px;
+    background-color: white;
+}
