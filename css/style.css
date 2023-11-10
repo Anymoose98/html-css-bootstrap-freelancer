@@ -5,8 +5,8 @@
 }
 
 
-.altezza{
-    height: 100%;
+.altezza-50{
+    height: 50px;
 }
 
 .altezza-100{
@@ -106,7 +106,7 @@ About
 *************/
 
 .contenuto-about{
-    height: 400px;
+    height: 100px;
     background-color: white;
 }
 
