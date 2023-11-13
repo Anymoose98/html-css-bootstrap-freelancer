@@ -32,17 +32,23 @@ body{
     height: 500px;
 }
 
+.border-radius{
+    border-radius: 10;
+    overflow: hidden;
+}
+
 
 
 /* stella con linea prima e dopo */
+/* bianco */
 
-.line-before-after {
+.line-before-after-white {
     position: relative;
     text-align: center;
 }
 
-.line-before-after::before,
-.line-before-after::after {
+.line-before-after-white::before,
+.line-before-after-white::after {
     content: "";
     position: absolute;
     width: 20%; 
@@ -51,15 +57,42 @@ body{
     top: 50%; 
 }
 
-.line-before-after::before {
+.line-before-after-white::before {
     right: 55%; 
     margin-right: 2px; 
 }
 
-.line-before-after::after {
+.line-before-after-white::after {
     left: 55%; 
     margin-left: 2px; 
 }
+
+/* nero */
+.line-before-after-black {
+    position: relative;
+    text-align: center;
+}
+
+.line-before-after-black::before,
+.line-before-after-black::after {
+    content: "";
+    position: absolute;
+    width: 20%; 
+    height: 1px; 
+    background-color: black; 
+    top: 50%; 
+}
+
+.line-before-after-black::before {
+    right: 55%; 
+    margin-right: 2px; 
+}
+
+.line-before-after-black::after {
+    left: 55%; 
+    margin-left: 2px; 
+}
+
 
 /*************
 bg-color
@@ -100,6 +133,9 @@ bg-color
     background-color: rgb(58, 84, 109);
 }
 
+.black{
+    color: black;
+}
 
 /*************
 Header 
