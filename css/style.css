@@ -16,20 +16,12 @@ body{
     height: 100px;
 }
 
-.altezza-200{
-    height: 200px;
-}
-
 .altezza-350{
     height: 350px;
 }
 
 .altezza-400{
     height: 400px;
-}
-
-.altezza-500{
-    height: 500px;
 }
 
 .border-radius{
@@ -40,6 +32,7 @@ body{
 
 
 /* stella con linea prima e dopo */
+
 /* bianco */
 
 .line-before-after-white {
@@ -141,14 +134,9 @@ bg-color
 Header 
 *************/
 header{
-    width: 100%;
     height: 50px;
 }
 
-.contenuto-header{
-    height: 100%;
-  
-}
 
 .no-vedo{
     display: block;
@@ -170,14 +158,6 @@ header{
 start bootstrap
 *************/
 
-.contenitore-start{
-    width: 100%;
-}
-
-.contenuto-start{
-    width: 100%;
-}
-
 #avatar{
     width: 50% ;
 }
@@ -195,15 +175,19 @@ About
 Around thw web
 *************/
 
-.contenuto-location{
-    height: 90px;
-    background-color: white;
+.circle{
+    border: 1px solid white;
+    padding: 8px 11px;
+    border-radius: 50%;
 }
 
-.contenuto-copryright{
-    height: 50px;
-    background-color: white;
+.circle-g{
+    border: 1px solid white;
+    padding: 8px 8px;
+    border-radius: 50%;
 }
+
+
 
 @media screen and (max-width:576px) {
     .no-vedo{
