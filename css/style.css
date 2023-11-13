@@ -33,6 +33,34 @@ body{
 }
 
 
+
+/* stella con linea prima e dopo */
+
+.line-before-after {
+    position: relative;
+    text-align: center;
+}
+
+.line-before-after::before,
+.line-before-after::after {
+    content: "";
+    position: absolute;
+    width: 20%; 
+    height: 1px; 
+    background-color: white; 
+    top: 50%; 
+}
+
+.line-before-after::before {
+    right: 55%; 
+    margin-right: 2px; 
+}
+
+.line-before-after::after {
+    left: 55%; 
+    margin-left: 2px; 
+}
+
 /*************
 bg-color
 *************/
@@ -107,15 +135,17 @@ start bootstrap
 *************/
 
 .contenitore-start{
-    height: 275px;
     width: 100%;
 }
 
 .contenuto-start{
-    height: 200px;
-
-    background-color: white;
+    width: 100%;
 }
+
+#avatar{
+    width: 50% ;
+}
+
 
 
 /*************
